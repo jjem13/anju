@@ -1,4 +1,4 @@
-let num =parseInt(prompt('numero'))
+let num =parseInt(prompt('numero'));
 document.write(numero)
 function soma (num1,num2){
     return num1+num2;
