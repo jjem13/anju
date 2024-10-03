@@ -20,3 +20,8 @@
 // document.write(media(num1, num2, num3))
 
 let estados = ['pr','rj','ac','al','ap','am','pa','ce','df','es','go','ma','mt','ms','mg','pa','pb','pe','pi','rn','rs','ro','rr','sc','sp','se','to']
+let i=0;
+while(i<28){
+console.log (i);
+i=i+1;
+}
