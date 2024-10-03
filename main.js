@@ -10,7 +10,11 @@ function areaQuadrado (lado){
 }
 console.log(areaQuadrado(numero));
 
-let media=function(numero1,numero2,numero3){
-    return numero1+numero2+numero3/3;
+let num1 = parseInt(prompt('Qual numero?'))
+let num2 = parseInt(prompt('Qual numero?'))
+let num3 = parseInt(prompt('Qual numero?'))
+
+function media (x,y,z){
+    return (x+y+z)/3;
 }
-document.write(numero1,numero2,numero3);
+document.write(media(num1, num2, num3))
